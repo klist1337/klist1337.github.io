@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.cours,
+.formateur,
+.nous-joindre,
+.sign-up,
+.mathematiques,
+.sciences-physique,
+.inscription,
+.litteratures,
+.informatiques
+{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.cours {
+  background-image: url('./images/pexels-pixabay-256541.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.formateur {
+  background-image: url('./images/pexels-cleyder-duque-3981801.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nous-joindre {
+  background-image: url('./images/pexels-anton-46924.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.sign-up {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.mathematiques {
+  background-image: url('./images/pexels-ian-panelo-3729557.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+
+.sciences-physique {
+  background-image: url('./images/pexels-jeshootscom-714698.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+}
+.inscription{
+background-image: url('https://images.pexels.com/photos/5082561/pexels-photo-5082561.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+font-size: 30px;
+}
+.litteratures{
+  background-image: url('./images/pexels-suzy-hazelwood-1122865.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 30px;
+  }
+  .informatiques{
+    background-image: url('./images/pexels-luis-gomes-546819.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 30px;
+    }
